@@ -31,7 +31,7 @@ app.use("/api/listings", listingRouter)
 
 app.use(cors(
     {
-        origin: ["https://realestate-backend-five.vercel.app/"],
+        origin: ["https://realestate-theta-sepia.vercel.app"],
         methods: ['POST', "GET"],
         credentials: true
     }
